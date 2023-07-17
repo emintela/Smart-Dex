@@ -198,3 +198,43 @@ code {
   text-align: center;
   padding: 5px 5px;
 }
+
+/* Add CSS media queries to target mobile devices */
+@media only screen and (max-width: 768px) {
+  .main-page {
+    flex-direction: column;
+  }
+
+  .left {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .right {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .right-bottom-right {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .right-bottom-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .right-bottom-left-middle {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  
+  /* Add any other necessary CSS modifications for mobile devices */
+}

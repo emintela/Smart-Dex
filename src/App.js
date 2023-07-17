@@ -41,7 +41,7 @@ function App() {
                 headers: {
                     
                     'x-rapidapi-host': 'famous-quotes4.p.rapidapi.com',
-                    'x-rapidapi-key': '4e02e0c1c2mshf7e7e94694b6bfbp1f9dfdjsnfed200bf71f0',
+                    'x-rapidapi-key': '--Key here--',
                 },
                 params: { category: 'all', count: '1' },
             });
@@ -69,6 +69,12 @@ fetchData()
 
 
 // fetch data using react query
+
+//keys
+require('dotenv').config(); // Load environment variables from .env file
+
+const apiKey1 = process.env.API_KEY_1; // Access the API key from environment variables
+
 
 const [color,setColor] = useState(false)
 
@@ -100,7 +106,7 @@ const fetchData = async( )=>{
           offset: '0'
       },
   headers: {
-    'X-RapidAPI-Key': '4e02e0c1c2mshf7e7e94694b6bfbp1f9dfdjsnfed200bf71f0',
+    'X-RapidAPI-Key': apiKey1,
     'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
   }}
   

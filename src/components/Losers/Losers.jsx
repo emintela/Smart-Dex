@@ -8,6 +8,12 @@ import { useQuery } from 'react-query';
 import axios from 'axios';
 import "../Gainers/Gainers.css"
 
+//keys
+
+require('dotenv').config(); // Load environment variables from .env file
+
+const apiKey2 = process.env.API_KEY_2; // Access the API key from environment variables
+
 
 const Losers = () => {
     //fetch data
@@ -24,7 +30,7 @@ const Losers = () => {
                 offset: '0'
             },
         headers: {
-          'X-RapidAPI-Key': '4e02e0c1c2mshf7e7e94694b6bfbp1f9dfdjsnfed200bf71f0',
+          'X-RapidAPI-Key':apiKey2 ,
           'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
         }}
         
