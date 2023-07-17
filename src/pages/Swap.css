@@ -1,0 +1,52 @@
+
+.swap{
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+     z-index:1;
+    padding-top: 15px;
+   /*position: relative;*/
+}
+
+.swap_box{
+    width: 38vw;
+    display: flex;
+    flex-direction: column;
+   /* margin-top: 5rem;*/
+    background-color: #1e1e1e;
+    padding : 1rem;
+    border-radius: 12px;
+    border: 1px solid;
+    z-index: 1;
+}
+
+.swap_box_heading{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.swap_box_input{
+    
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightblue;
+    border-radius: .5rem;
+    padding-left:2rem;
+    margin-top: 1rem; 
+    align-items: center;
+   
+}
+
+.swap_box_input input{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    color: lightblue;
+    font-size : 1.2rem;
+
+}
