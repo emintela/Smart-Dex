@@ -1,0 +1,149 @@
+.swap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.swap-container{
+    width: 420px;
+   background: linear-gradient(156.8deg, rgb(30, 144, 231) 27.1%, rgb(67, 101, 225) 77.8%);
+    /*background-color: #7d9dbd;*/
+    border-radius: 15px;
+    padding: 15px 15px;
+    margin-top: 60px;
+
+}
+
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-left{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.sell{
+    width: 400px;
+    border-radius: 15px;
+    background-color: #f8f9fa;
+    /*background-color: #7d9dbd;*/
+    padding: 5px 10px;
+}
+
+.buy{
+    width: 400px;
+    border-radius: 15px;
+    
+    background-color: #f8f9fa;
+    border: solid 1px #7d9dbd;
+    padding: 5px 10px;
+
+}
+
+.conversion{
+    width: 400px;
+    border-radius: 15px;
+    height : 40px;
+    background-color: #f8f9fa;
+    /*background-color: #7d9dbd;*/
+    padding-top:10px;
+    text-align: center;
+}
+
+.trade-button{
+    width: 400px;
+    border-radius: 15px;
+    height : 40px;
+    border: solid 1px #7d9dbd;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+
+}
+
+.center-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottom-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   
+}
+
+.bottom-contents>p>img{
+    width: 10px;
+    height: 10px;
+}
+
+.center-contents-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+    padding: 1px 7px;
+    border-radius: 7px;
+}
+.bottom-contents-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.center-contents-left>p>img{
+    width: 30px;
+    height: 30px;
+
+}
+
+.center-contents-right>p>input{
+    background-color: #f8f9fa;
+    /*background-color: #7d9dbd;*/
+    height: 40px;
+    font-size: 20px;
+}
+
+.center-contents-right>p>input:hover{
+    background-color: #f8f9fa;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.center-contents-left:hover{
+    background-color: #f8f9fa;
+    padding: 1px 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.buy .center-contents-left:hover{
+  
+    background-color: #f8f9fa;
+    /*background-color: #7d9dbd;*/
+    cursor: pointer;
+
+}
